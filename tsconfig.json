@@ -1,11 +1,11 @@
+// tsconfig.json
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "target": "ES6",
+   "outDir": "./dist",
+    "rootDir": "./",
     "module": "commonjs",
+    "target": "es6",
     "esModuleInterop": true,
-    "strict": true,
-    "rootDir": "./"
-  },
-  "include": ["index.ts", "routes", "controllers", "models", "utils"]
+    "strict": true
+  }
 }
